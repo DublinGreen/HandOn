@@ -1,0 +1,753 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.upernav li {
+    list-style: none;
+    float: left;
+    padding: 11px 21px;
+}
+
+.upernav ul {
+    display: flex;
+    justify-content: flex-end;
+    font-family: arial;
+}
+.accordion .card {
+    position: inherit;
+    width: auto;
+    height: auto;
+    margin: inherit;
+    box-shadow: none;
+    border-radius:inherit;
+}
+.borderr {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 10px;
+}
+
+.upernav {
+    height: 46px;
+    color: white;
+    background-image: repeating-linear-gradient( 90deg, #490662, #129eb7);
+    display: none;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0)!important;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.cfb {
+    background-image: repeating-linear-gradient( 90deg, #8934a9, #129eb7);
+    color: white;
+    border: none;
+    padding: 10px 41px;
+}
+
+span {
+    color: #129eb7;
+}
+
+.cfb:hover {
+    color: white!important;
+    box-shadow: 1px 2px 7px #7f3eab;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banner.jpg');
+    animation: example 15s infinite alternate;
+    transition: 10s;
+    background-size: 110% 110%;
+}
+
+.banner1 h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.banner p {
+    color: white;
+}
+
+@keyframes example {
+    0% {
+        background-size: 110% 110%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+}
+
+.setbnner {
+    position: absolute;
+    width: 100%;
+    background: #0000003d;
+    ;
+    height: 100%;
+    top: 0;
+}
+
+.banner1 p {
+    color: white;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.vert-movet1 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: moverr 1s infinite alternate;
+}
+
+@keyframes moverr {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* //////////////Footer/////////////// */
+
+.footer a {
+    color: white;
+}
+
+.footer img {
+    max-width: 50%;
+}
+
+span i {
+    color: white;
+    padding: 10px 15px;
+    background-color: #ffffff30;
+}
+
+.form-set {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.sethg {
+    height: 400px;
+}
+
+
+/* //////////////Footer/////////////// */
+
+.container1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+}
+
+.bgslider {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/slider-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+i.fa.fa-quote-left {
+    color: white;
+    font-size: 29px;
+}
+
+.fa-quote-right:before {
+    color: white;
+    font-size: 23px;
+}
+
+.containerham {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.headd img:hover {
+    transform: scale(1.1);
+}
+
+.headd img {
+    transition: 0.3s;
+    border: 4px solid #fff;
+    padding: 10px;
+    box-shadow: 1px 2px 15px grey;
+    border-radius: 50%;
+    margin-top: -55px;
+    background: white;
+    width: 75px !important;
+}
+
+
+/* safety css  */
+
+.safety p {
+    line-height: 29px;
+}
+
+.safe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bannersafety.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+/* safety css  */
+
+.seth2 h2:after {
+    content: '';
+    background: url(../img/headingborder.png) no-repeat;
+    display: block;
+    height: 22px;
+    width: 43px;
+    margin-top: 10px;
+}
+
+
+/* modal css  */
+
+.modal-dialog {
+    max-width: 80%!important;
+    margin: auto!important;
+}
+
+.modal-body {
+    border: unset!important;
+    height: 70vh;
+}
+
+.social-img {
+    width: 20%;
+}
+
+
+/* chirag css */
+
+.about-banner {
+    background-image: url('../img/img3.jpg'), linear-gradient(transparent, rgb(126, 123, 123));
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-row {
+    background-color: rgba(15, 15, 15, 0.664);
+    height: 100% !important;
+}
+
+.about-h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.about-banner2 {
+    background-image: url('../img/img5.jpg');
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner3 {
+    background-image: url('../img/img12.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    background-attachment: fixed;
+}
+
+.linear {
+    background-color: rgba(15, 15, 15, 0.664);
+    height: 100%;
+}
+
+.cfb {
+    background-image: repeating-linear-gradient(90deg, #8934a9, #129eb7);
+    color: white;
+    border: none;
+    padding: 10px 41px;
+}
+
+.h1-about-1 {
+    font-size: 35px;
+    background: -webkit-linear-gradient(#8934a9, #129eb7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-ancher i {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-image: linear-gradient(#8934a9, #129eb7);
+    border-radius: 50%;
+}
+
+.about-banner {
+    background-image: url('../img/img3.jpg'), linear-gradient(transparent, rgb(126, 123, 123));
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-row {
+    background-color: rgba(15, 15, 15, 0.664);
+    height: 100% !important;
+}
+
+.about-h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.1em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.about-banner2 {
+    background-image: url('../img/img5.jpg');
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner3 {
+    background-image: url('../img/img12.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    background-attachment: fixed;
+}
+
+.linear {
+    background-color: rgba(15, 15, 15, 0.664);
+    height: 100%;
+}
+
+.cfb {
+    background-image: repeating-linear-gradient(90deg, #8934a9, #129eb7);
+    color: white;
+    border: none;
+    padding: 10px 41px;
+}
+
+.h1-about-1 {
+    font-size: 35px;
+    background: -webkit-linear-gradient(#8934a9, #129eb7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-ancher i {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    background-image: linear-gradient(#8934a9, #129eb7);
+    border-radius: 50%;
+}
+
+.helpbanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Helpsupport.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.helpbanner a {
+    text-decoration: none;
+    color: white;
+}
+
+.cfb {
+    background-image: repeating-linear-gradient( 90deg, #8934a9, #129eb7);
+    color: white;
+    border: none;
+    padding: 10px 41px;
+}
+
+.helppills a:hover {
+    color: black;
+}
+
+.callsupport {
+    background-color: #f3e7f2c7;
+}
+
+.callsupport p {
+    line-height: 35px;
+}
+
+.hbtn {
+    color: black;
+}
+
+.bar2 {
+    width: 18px;
+}
+
+.animate__backInLeft {
+    animation-duration: 2s!important;
+    animation-delay: 0.20s;
+}
+
+.pset {
+    color: white;
+}
+
+.pset:hover {
+    padding-left: 5px;
+    transition: 0.25s;
+}
+
+.modal {
+    animation-name: modal;
+    animation-duration: 0.5s;
+}
+
+@keyframes modal {
+    0% {
+        transform: scale(2, 2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+.helppills {
+    background-image: repeating-linear-gradient( 90deg, #8934a9, #129eb7);
+    color: whitesmoke!important;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.btn-link {
+    font-weight: 400;
+    /* color: #007bff; */
+    text-decoration: none!important;
+}
+
+.socal-set:hover {
+    transition: 0.11s;
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width:1020px) {
+    .modal-body {
+        border: unset!important;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .banner1 h2 {
+        font-size: 30px;
+        color: white;
+    }
+    .carousel-item {
+        height: 400px;
+    }
+    .social-img {
+        width: 15%;
+    }
+    .helppills {
+        width: 40%!important;
+        margin: auto;
+    }
+    .helpnav {
+        display: flex!important;
+        flex-direction: row!important;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    #v-pills-messages-tab {
+        margin-top: 10px;
+    }
+    .safe {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+/* index_page */
+
+div#welcomeDiv .row {
+    border: 2px dashed purple;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.seclect_dr {
+    text-align: center;
+}
+
+.seclect_dr i {
+    font-size: 45px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+.card {
+    position: relative;
+    width: 320px;
+    height: 260px;
+    box-shadow: inset 5px 5px 5px rgb(0 0 0 / 5%), inset -5px -5px 5px rgb(255 255 255 / 50%), 5px 5px 5px rgb(0 0 0 / 5%), -5px -5px 5px rgb(255 255 255 / 50%);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.box1 {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    bottom: 20px;
+    left: 3px;
+    background: #fff9ed;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.content {
+    text-align: center;
+}
+
+.fab {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: clamp(55px, 10vw, 65px);
+    pointer-events: none;
+}
+
+.fa-python {
+    background: rgb(0, 115, 163);
+    background: linear-gradient( 90deg, rgba(0, 115, 163, 1) 0%, rgba(255, 210, 41, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.fa-java {
+    background: rgb(255, 0, 0);
+    background: linear-gradient( 90deg, rgba(255, 0, 0, 1) 0%, rgba(125, 108, 130, 1) 70%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.fa-js-square {
+    background-color: #fbda61;
+    background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.card h3 {
+    font-size: 1.8em;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.card p {
+    font-size: 1em;
+    color: #777;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.card a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #409eff;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .box1 .content a {
+    background: #ff4049;
+}
+
+.card:hover .box1 {
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(45deg, #b95ce4, #4f29cd);
+}
+
+.card:hover .box1 .content h3,
+.card:hover .box1 .content p {
+    color: #fff;
+}
+
+.card_sec {
+    width: 100%;
+    display: flex;
+}
+
+.card img {
+    width: 40%;
+    border: 3px solid #fff;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .card {
+        width: 84% !important;
+    }
+    .card_sec {
+        display: block;
+    }
+}

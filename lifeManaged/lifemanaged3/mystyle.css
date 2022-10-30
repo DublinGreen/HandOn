@@ -1,0 +1,143 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    transition: 3s ease;
+}
+
+.animate__pulse{
+animation-iteration-count: infinite;
+}
+
+.navset{
+    position: sticky;
+    top: 0;
+    z-index: 111;
+    background: whitesmoke;
+    padding: 21px;
+    transition: 0.5s ease-in-out;
+    
+    background-position: bottom;
+}
+.bg-map{
+    background-image: url("./img/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg1{
+    background-image: url("./img/Bannerbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p,a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-icon span i{
+	color: white;
+    padding: 10px 15px;
+    background-color: #4b5f6e91;
+}
+.animate__backInRight{
+    animation-duration: 2s!important;
+}
+
+
+.banner h1{
+font-size: 66px;
+color: #242f51;
+}
+.clr{
+color: #242f51;
+
+}
+.bg-set{
+    background-color: whitesmoke!important;
+    color: black!important;
+}
+
+.list-group-item{
+    color:#a8aab2!important;
+    border:none;
+}
+.border-right p{
+    font-size: 36px;
+color: #242f51;
+}
+.heading{
+    color: #242f51;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif!important;
+    color:#242f51;
+}
+
+.banner img{
+    width: 100%;
+}
+.btn{
+   padding: 8px 21px;
+    color: white;
+    background-color: #2500f9;
+}
+
+.card{
+    box-shadow: 4px 4px 7px lightgrey;
+}
+.card>.list-group{
+    border:none;
+}
+
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+footer li{
+    list-style: none;
+    padding:5px 21px;
+}
+.set a{
+padding: 10px;
+color: white;
+text-decoration:none ;
+}
+
+
+@media only screen and (max-width:1020px){
+.banner h1{
+font-size: 53px;
+
+}
+
+}
+
+@media only screen and (max-width:720px){
+.banner h1{
+font-size: 40px;
+
+}
+
+.set-font li{
+    display: inline;
+}
+.wid img{
+    width: 50%;
+}
+}
+
+@media only screen and (max-width:450px){
+    .card{
+        margin: auto;
+    }
+}
